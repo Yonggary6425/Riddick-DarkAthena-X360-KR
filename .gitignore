@@ -1,0 +1,22 @@
+# Game data must never be committed
+*.iso
+*.xex
+*.xcd
+*.xtc
+*.xcr
+*.xfc
+*.xdf
+
+# Patch data and packages go to GitHub Releases, not the repository
+*.rkp
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Build folders
+out/
+orig/
+recon/
